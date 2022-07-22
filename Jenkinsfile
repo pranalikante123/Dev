@@ -11,11 +11,6 @@ pipeline {
                 bat 'systeminfo'
             }
         }
-        stage('build') {
-            steps {
-                echo 'this is programming'
-            }
-        }
     }
 }
 
