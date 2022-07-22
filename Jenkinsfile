@@ -3,17 +3,12 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                echo 'hello world'
+                echo 'hello world '
             }
         }
         stage('deploy') {
             steps {
                 bat 'systeminfo'
-            }
-        }
-        stage('build') {
-            steps {
-                echo 'this is programming'
             }
         }
     }
