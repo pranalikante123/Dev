@@ -11,7 +11,7 @@ pipeline {
                 bat 'systeminfo '
             }
         }
-        stage('compile') {
+        stage('deploy') {
             steps {
                 echo 'systeminfo '
             }
