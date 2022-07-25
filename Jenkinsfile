@@ -13,7 +13,7 @@ pipeline {
         }
         stage('compile') {
             steps {
-                echo 'systeminfo'
+                echo 'systeminfo '
             }
         }
     }
